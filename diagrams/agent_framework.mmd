@@ -1,0 +1,24 @@
+graph TD
+  subgraph R[资源层]
+    SY[思源笔记<br/>00-Core / 01-Profile / 10-Projects / 20-Knowledge]
+  end
+
+  subgraph D[调试层]
+    ABME[ABME 调试工作台<br/>提示词调试 / 工作流联调 / 复盘 / 规则升级]
+  end
+
+  subgraph O[运行层]
+    FEISHU[飞书角色 Agent<br/>前台运行 / 多角色协作 / 真实反馈]
+  end
+
+  subgraph P[项目承接]
+    DEBUG[10-Projects / Agent 调试工程<br/>调试记录 / 联调记录 / 运行复盘 / 问题单]
+  end
+
+  SY --> ABME
+  SY --> FEISHU
+  ABME --> DEBUG
+  FEISHU --> DEBUG
+  DEBUG --> SY
+  ABME --> FEISHU
+  FEISHU -.运行反馈.-> ABME
