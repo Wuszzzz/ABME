@@ -35,7 +35,7 @@ version: "2.0"
 - role: 资源层真源
 - access_mode: `cli-first`
 - profile: `siyuan`
-- config_path: `/Users/Apple/.siyuan-sisyphus/config.json`
+- config_path: `<private-profile-config>`
 - default_write_project: `11-Agent Debug`
 
 ### surfaces.abme
