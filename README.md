@@ -49,3 +49,14 @@
 - 调试过程与运行反馈优先进入思源 `11-Agent Debug`
 - 仓库中的 `docs/session-notes/` 用于记录关键会话摘要、决策和下一步动作
 - 仓库默认应保持可 git 初始化、可提交、可推送到 GitHub
+
+## Public Engineering Mirror
+
+This repository is ABME's public engineering mirror. It publishes reusable prompt-engineering patterns, skills, agent-role documentation, CLI/MCP integration guidance, and structured usage notes for review, reuse, and iteration.
+
+- Sync rule: [`docs/public-sync.md`](docs/public-sync.md)
+- Reusable skills: [`skills/`](skills/)
+- Agent roles and prompt patterns: [`agents/`](agents/)
+- CLI/MCP and other integration patterns: [`integrations/`](integrations/)
+
+It does not publish personal memory, raw chats, credentials, private configuration, or unreviewed runtime traces.

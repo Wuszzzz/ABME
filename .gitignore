@@ -9,3 +9,16 @@ coverage/
 
 # Local cache
 cache/
+
+# Never publish local runtime state, credentials, or raw conversation exports.
+.env
+.env.*
+!.env.example
+secrets/
+private/
+memory/
+sessions/
+*.key
+*.pem
+*.p12
+*.mobileprovision

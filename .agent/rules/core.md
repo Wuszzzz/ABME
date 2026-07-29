@@ -44,3 +44,8 @@ alwaysApply: true
 - `abme` 仓库应保持随时可初始化为 git 仓库并推送到 GitHub 的状态。
 - 进入 GitHub 的内容应以可复用规则、结构文档、模板和方法为主，不提交明显敏感或无整理临时数据。
 - 当用户要求“持续更新 GitHub 项目”时，默认理解为：本地修改应可被提交、追踪、回滚和推送，而不是只在本地堆文档。
+
+## Public engineering sync
+
+- Reusable changes to prompts, skills, agents, CLI, MCP, or integrations must be synchronized to the public-safe ABME repository before the work item is closed, or explicitly marked as excluded with a reason.
+- Follow `docs/public-sync.md`. Never synchronize raw conversations, personal memory, credentials, tokens, private configuration, or machine-specific runtime traces.
