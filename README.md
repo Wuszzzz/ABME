@@ -20,6 +20,7 @@
 - `ROADMAP.md`：当前路线图
 - `mind_framework.md`：方法论层的简化说明
 - `docs/`：架构、接口、接入规范、工作台说明
+- [`docs/project-registry.md`](docs/project-registry.md)：ABME 调用、依赖和参考的 Git 项目登记
 - `docs/session-notes/`：结构化工作会话纪要
 - `diagrams/`：当前结构图
 - `.agent/rules/`：项目内通用规则
@@ -58,5 +59,6 @@ This repository is ABME's public engineering mirror. It publishes reusable promp
 - Reusable skills: [`skills/`](skills/)
 - Agent roles and prompt patterns: [`agents/`](agents/)
 - CLI/MCP and other integration patterns: [`integrations/`](integrations/)
+- Repository and dependency registry: [`docs/project-registry.md`](docs/project-registry.md)
 
 It does not publish personal memory, raw chats, credentials, private configuration, or unreviewed runtime traces.
